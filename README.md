@@ -45,5 +45,5 @@ npx hardhat test
 ## Demo 🚀
 - **StreaXToken** contract: [StreaXToken](https://goerli.etherscan.io/token/0x346461C71eaEf9cAfEAfF461aFDD61055AED4d3d)
 - **StreaXFaucet** contract: [StreaXFaucet](https://goerli.etherscan.io/address/0x4E292289F8b76B731c9C92B6234fEf684C215f7D)
-- Website IPFS link: [click here](https://calm-forest-3278.on.fleek.co/) or [here](https://ipfs.fleek.co/ipfs/QmcyqG7zsZo16qWwAsjVxTKcZURzqNtLsCJ7WtamnU9c41)
+- IPFS website link: [click here](https://calm-forest-3278.on.fleek.co/) or [here](https://ipfs.fleek.co/ipfs/QmcyqG7zsZo16qWwAsjVxTKcZURzqNtLsCJ7WtamnU9c41)
 
