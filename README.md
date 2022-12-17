@@ -2,7 +2,7 @@
 Minimalistic and sleek website for an ERC-20 token on Goerli testnet
 
 ## Tokenomics 💵
-- Max supply of StreaX will never exceed 100_000_000
+- Max supply of StreaX will never exceed 100,000,000
 - There's no monetary value of a StreaX token i.e. it's free
 - The person to deploy this contract will be considered the `creator` of StreaX And he will also get 70% of the total supply of StreaX as a reward i.e. 70,000,000 StreaX(s)
 - One StreaX can be divided into 18 smaller values
