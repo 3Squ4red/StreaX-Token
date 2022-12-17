@@ -1,0 +1,71 @@
+$primary-color: #212121;
+$primary-light: #484848;
+$primary-light-light: #4848488f;
+$primary-dark: #000000;
+
+// $secondary-color: #fce4ec;
+// $secondary-light: #ffffff;
+// $secondary-dark: #c9b2ba;
+// $secondary-dark-light: #c9b2ba5d;
+// $skills-background: #ffea00;
+// $metamask-color: #f58521;
+// $love-color: #d50000;
+
+@font-face {
+  font-family: carbonBlack;
+  src: url("./font/carbon-bold.otf");
+}
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  &:after,
+  &:before {
+    box-sizing: border-box;
+  }
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: carbonBlack, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+img,
+video,
+canvas,
+svg {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}

@@ -1,0 +1,184 @@
+@import "./base.scss";
+
+.front {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: $primary-dark;
+  color: #fff;
+
+  .header {
+    padding-top: 7%;
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+    h1 {
+      // align-self: center;
+      // padding-top: 5%;
+      white-space: nowrap;
+      font-size: 40px;
+      overflow: hidden;
+      animation: animated-text 2s steps(30, end) 1s 1 normal both;
+      @keyframes animated-text {
+        from {
+          width: 0;
+        }
+        to {
+          width: 530px;
+        }
+      }
+    }
+  }
+
+  .tokenInfo {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 7%;
+    // row-gap: 90%;
+
+    .creator_heading,
+    .cappedAt_heading {
+      text-align: right;
+    }
+
+    .row1 {
+      width: 100vw;
+      align-items: center;
+      justify-content: space-between;
+      margin-inline: 12em;
+
+      display: flex;
+
+      .totalSupply {
+        &_heading {
+          color: $primary-light;
+          font-size: 20px;
+        }
+        &_text {
+          font-size: 40px;
+        }
+      }
+
+      .cappedAt {
+        &_heading {
+          color: $primary-light;
+          font-size: 20px;
+        }
+        &_text {
+          font-size: 40px;
+        }
+      }
+    }
+
+    .row2 {
+      width: 100vw;
+      margin-top: 10%;
+      align-items: center;
+      justify-content: space-between;
+      margin-inline: 12em;
+
+      display: flex;
+
+      .blockreward {
+        &_heading {
+          color: $primary-light;
+          font-size: 20px;
+        }
+        &_text {
+          font-size: 40px;
+        }
+      }
+
+      .creator {
+        &_heading {
+          color: $primary-light;
+          font-size: 20px;
+        }
+        &_text {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}
+
+.back {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  background: $primary-color;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+
+  .addGet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 2em;
+    gap: 1em;
+
+    & > button {
+      background-color: black;
+      color: white;
+      padding: 0.6em 3em;
+      font-size: 1.2em;
+      cursor: pointer;
+    }
+  }
+
+  .balanceTransfer {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 12em;
+
+    .common_header {
+      display: flex;
+      gap: 0.5em;
+      align-items: center;
+
+      & > button {
+        background-color: #000000;
+        color: white;
+        padding: 0.5em 1em;
+        cursor: pointer;
+        font-size: 1.5em;
+      }
+
+      & > span {
+        font-size: 1.75em;
+      }
+    }
+  }
+
+  .balance {
+    display: fle;
+  }
+
+  .transfer {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    .transfer_input {
+      & > input {
+        background-color: $primary-dark;
+        border: none;
+        outline: none;
+        padding: 0.1em 0.5em;
+        line-height: 3;
+        color: white;
+        width: 7em;
+      }
+
+      display: flex;
+      gap: 0.5em;
+    }
+  }
+}
