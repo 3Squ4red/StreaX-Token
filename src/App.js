@@ -73,7 +73,7 @@ function App() {
       const tokenSymbol = "STRX";
       const tokenDecimals = 18;
       const tokenImage =
-        "https://www.shutterstock.com/image-vector/letter-x-logo-design-template-600w-2058597200.jpg";
+        "https://img.freepik.com/free-vector/vector-graphic-design-element-x-letter_460848-6935.jpg?w=900&t=st=1671294885~exp=1671295485~hmac=a20db9ea93fe23597b94bdeadbdceabbc058d6524ab410a7c7a7199c35852658";
 
       try {
         // wasAdded is a boolean. Like any RPC method, an error may be thrown.
